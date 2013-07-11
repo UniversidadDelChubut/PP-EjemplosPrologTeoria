@@ -16,3 +16,4 @@ se_aman(X, Y) :- ama_a(X,Y), ama_a(Y,X).
 son_felices(X,Y):- se_aman(X,Y).
 los_senialan_con_el_dedo(X,Y) :- se_aman(X,Y), hombre(X), hombre(Y).
 los_senialan_con_el_dedo(X,Y) :- se_aman(X,Y), mujer(X), mujer(Y).
+es_amado(X) :- ama_a(_,X).

@@ -14,7 +14,6 @@ planeta(neptuno).
 planeta(pluton).
 estrella(sol).
 
-%
 orbita(luna, tierra).
 orbita(deimos, marte).
 orbita(phobos, marte).
@@ -40,13 +39,9 @@ orbita(ariel, urano).
 orbita(umbriel, urano).
 orbita(triton, neptuno).
 
-
+% Reglas
 orbita(Planeta,sol):-planeta(Planeta).
 satelite(X):-planeta(Planeta),orbita(X,Planeta).
 
 redondo(X) :- planeta(X).
 redondo(X) :- satelite(X).
-
-% como suponemos que todo es redondo podemos hacer
-% redondo(_).
-

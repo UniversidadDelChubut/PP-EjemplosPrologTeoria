@@ -1,5 +1,4 @@
-01_PrimerosPasos
-================
+# Primeros Pasos con Prolog
 
 En la primera clase veremos los elementos básicos de un programa prolog: hechos, reglas y premisas. Y el uso de variables y variables anónimas en el proceso de unificación.
 

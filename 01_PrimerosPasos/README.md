@@ -1,6 +1,6 @@
 # Primeros Pasos con Prolog
 
-En la primera clase veremos los elementos básicos de un programa prolog: hechos, reglas y premisas. Y el uso de variables y variables anónimas en el proceso de unificación.
+En la primera clase veremos los elementos básicos de un programa prolog: hechos, reglas y consultas; también el uso de variables y variables anónimas en el proceso de unificación.
 
 Arancamos con `planeta.pl` donde se muestra un primer ejemplo con silogismo simple.
 Seguimos con `amor_primera_version.pl` y `amor.pl` que corresponden a los ejemplos del apunte de cátedra.

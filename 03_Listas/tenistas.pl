@@ -16,7 +16,7 @@ uno(Nombre) :- tenistas(L), member(DatosTenista, L), DatosTenista = [Nombre, 1, 
 % cantidad de elelemntos del arreglo 
 cantidad(Cantidad) :- tenistas(L), contar(L, Cantidad).
 contar([], 0).
-contar([H|T], Cant) :- contar(T, X), Cant is X + 1.
+contar([_|T], Cant) :- contar(T, X), Cant is X + 1.
 
 % Se arma una lista con los nombres de los tenistas argentinos
 arg(Argentinos) :- tenistas(L), arg(L, Argentinos).

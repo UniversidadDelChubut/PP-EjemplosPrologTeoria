@@ -21,6 +21,10 @@ madre(teresa, natalia).
 hermano(X,Y) :- madre(U,X), madre(U,Y), X \= Y.
 hermano(X,Y) :- padre(U,X), padre(U,Y), X \= Y.
 
+% Padre/Madre e hijo
+hijo(X,Y) :- padre(Z,X).
+hijo(X,Y) :- madre(Z,X).
+
 % progenitor indica padre o madre
 progenitor(X,Y):-padre(X,Y).
 progenitor(X,Y):-madre(X,Y).
@@ -38,3 +42,4 @@ ancestro(X,Y):-progenitor(X,Y).
 ancestro(X,Y):-progenitor(X,Z), ancestro(Z,Y).
 
 % ¿Cómo se puede reescribir hermano usando progenitor/2?
+% Escriba el predicado familiar/2

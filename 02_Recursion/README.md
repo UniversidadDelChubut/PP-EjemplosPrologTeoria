@@ -5,7 +5,7 @@ Prolog, el uso de expresiones matemáticas y la recursión.
 Se utiliza `hombres_y_perros.pl` para ejemplificar el proceso de
 inferencia de prolog.
 
-En `autos.pl` vemos un ejemplo del iso de las expresiones matematicas y el 
+En `autos.pl` vemos un ejemplo del uso de las expresiones matematicas y el 
 operador _is_.
 
 Con `familia.pl` tenemos un ejemplo donde se introduce el uso de recursión,

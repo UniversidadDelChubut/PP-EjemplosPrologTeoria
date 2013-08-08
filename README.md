@@ -10,3 +10,5 @@ Presenta los ejemplos para los temas de la segunda clase: expresiones matemátic
 ## 03_Listas
 En la tercera clase se ve el uso de listas en Prolog.
 
+##04_Ejemplos
+Ejemplos de aplicaciones en Prolog con interacción del usuario.

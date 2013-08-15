@@ -22,8 +22,8 @@ hermano(X,Y) :- madre(U,X), madre(U,Y), X \= Y.
 hermano(X,Y) :- padre(U,X), padre(U,Y), X \= Y.
 
 % Padre/Madre e hijo
-hijo(X,Y) :- padre(Z,X).
-hijo(X,Y) :- madre(Z,X).
+hijo(X,Y) :- padre(Y,X).
+hijo(X,Y) :- madre(Y,X).
 
 % progenitor indica padre o madre
 progenitor(X,Y):-padre(X,Y).
